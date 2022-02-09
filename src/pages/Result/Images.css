@@ -1,0 +1,20 @@
+.images-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images-section img {
+    object-fit: contain;
+    margin: 20px 10px;
+    height: 300px;
+    width: 320px;
+    padding: 20px;
+}
+
+.images-section img:hover {
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}

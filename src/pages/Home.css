@@ -1,0 +1,60 @@
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home_header {
+    display: flex;  
+    justify-content: right;
+    padding: 20px 20px;
+    align-items: center;
+    min-width: 19vw;
+}
+
+.home_header a {
+    margin: 0 10px;
+    text-decoration: inherit;
+    color: black;
+}
+
+.home_header a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.home_header > .MuiSvgIcon-root {
+    margin: 0 10px;
+}
+
+.home_header > .mode_button {
+    margin: 0 10px;
+}
+
+.home_header > .mode_button:hover {
+    cursor: pointer;
+}
+
+.home_body {
+    flex: 1; /* It will take the majority of space */
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    justify-items: center;
+}
+
+.home_body > img {
+    margin: 0 40px;
+    object-fit: contain;
+    height: 100px;
+}
+
+.home_search_bar {
+    margin: 0 auto;
+    margin-top: 30px;
+}

@@ -1,0 +1,43 @@
+.result-section {
+    margin: 10px 15vw 0 15vw;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.result-displayLink {
+    text-decoration: none;
+    color: blue;
+}
+
+.result-link {
+    text-decoration: none;
+    font-size: 1.35rem;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 900px) {
+    .result-section {
+        margin: 10px 15vw 0 20vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .result-section {
+        margin: 10px 5vw 0 5vw;
+    }
+}
+
+.result-homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loading-logo {
+    object-fit: contain;
+    height: 200px;
+    margin-top: 80px;
+}
