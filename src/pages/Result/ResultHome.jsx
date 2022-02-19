@@ -11,7 +11,7 @@ import logo from '../../assets/Spinner-1s-200px.gif'
 // import res from '../../response'
 
 const ResultHome = () => {
-    const [{ term }, dispatch] = useContext(SearchContext); // here will be the value from SearchContext.Provider
+    const [{ term }] = useContext(SearchContext); // here will be the value from SearchContext.Provider
     const [isLoading, setLoading] = useState(true);
     // LIVE API CALL
     const { data } = useGoogleSearch(`q=${term}&num=40`, "search", setLoading);

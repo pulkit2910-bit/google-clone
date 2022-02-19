@@ -12,10 +12,8 @@ import logo from '../../assets/Spinner-1s-200px.gif'
 
 const Videos = () => {
     const [isLoading, setLoading] = useState(false);
-    const [{ term }, dispatch] = useContext(SearchContext);
+    const [{ term }] = useContext(SearchContext);
     const { data } = useYtSearch(term, setLoading)
-
-    const baseUrl = 'https://www.youtube.com/watch?v=';
 
     if (isLoading) return (
         <div className="videosPage">
